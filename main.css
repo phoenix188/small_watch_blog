@@ -1,0 +1,76 @@
+body
+
+{
+	margin: 0px;
+	padding: 0px;
+	font-size: 1em;
+}
+
+
+.navigation-header
+
+{
+	padding: 1px;
+	background-color: black;
+}
+
+.navigation-header ul
+
+{
+	display: flex;
+	justify-content: center;
+
+}
+
+.navigation-header li 
+
+{
+	padding-right: 25px;
+	font-size: 1.1em;
+	list-style-type: none;
+}
+
+.navigation-header a
+
+{
+	text-decoration: none;
+	color: white;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.container
+
+{
+	width: 1080px;
+	margin: 0 auto;
+}
+
+#header-line 
+
+{
+	padding: 30px;
+	text-align: center;
+}
+
+#header-line h1
+
+{
+	text-align: center;
+	padding-bottom: 30px;
+
+}
+
+.article-display
+
+{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
