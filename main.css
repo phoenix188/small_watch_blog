@@ -4,6 +4,7 @@ body
 	margin: 0px;
 	padding: 0px;
 	font-size: 1em;
+	letter-spacing: 1px;
 }
 
 
@@ -66,6 +67,53 @@ body
 {
 	text-align: center;
 }
+
+hr
+
+{
+	width: 125px;
+	margin-bottom: 30px;
+}
+
+.article-display p 
+
+{
+	letter-spacing: 1px;
+	margin-bottom: 15px;
+}
+
+.article-display img
+
+{
+	width: 800px;
+    border-radius: 2.5px;
+    border: 0.50px solid rgb(196, 180, 180);
+}
+
+button
+
+{
+	width: 450px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+button:hover
+
+{
+	background-color: #e30000;
+}
+
+
+
+
 
 
 
