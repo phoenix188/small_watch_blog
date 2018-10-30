@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5
 h3
 
 {
-	font-weight: normal;
+	font-weight: ;
 	font-size: 1em;
 }
 
@@ -52,14 +52,14 @@ h3
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
-
+/*
 .container
 
 {
 	width: 100%;
 	margin: 0 auto;
 }
-
+*/
 #header-line 
 
 {
@@ -125,6 +125,7 @@ button:hover
 }
 
 
+
 .navigation-header a:hover
 
 {
@@ -150,13 +151,13 @@ button:hover
 {
 	width: 800px;
 	text-align: justify;
-	line-height: 22px;
+	
 }
-/*
-.center_container h1 
+
+ul li 
 
 {
-	text-align: center;
+	list-style-type: none;
 }
 
 
@@ -195,8 +196,13 @@ button:hover
 		padding: 20px;
 	}
 }
+/*
+.center_articles_sponso
 
-
+{
+	display: flex;
+	flex-direction: column;
+}
 /*
 
 @media only screen and (max-width: 600px)
