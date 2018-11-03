@@ -52,14 +52,14 @@ h3
 	letter-spacing: 2px;
 	text-transform: uppercase;
 }
-/*
+
 .container
 
 {
 	width: 100%;
 	margin: 0 auto;
 }
-*/
+
 #header-line 
 
 {
@@ -151,7 +151,7 @@ button:hover
 {
 	width: 800px;
 	text-align: justify;
-	
+	padding: 10px;
 }
 
 ul li 
@@ -174,6 +174,7 @@ ul li
 	p
 	{
 		text-align: justify;
+		padding: 10px;
 	}
 
 	.navigation-header
@@ -196,27 +197,70 @@ ul li
 		padding: 20px;
 	}
 }
-/*
-.center_articles_sponso
+
+/*Responsive test for iphone X */
+
+@media (min-width: 375px) and (max-width: 376px)
 
 {
-	display: flex;
-	flex-direction: column;
-}
-/*
+	p
+	{
+		text-align: justify;
 
-@media only screen and (max-width: 600px)
+	}
 
-{
-	body {
-		/*background-color: red;*/
+	.navigation-header
+	{
+		width: 218%;
+		font-size: 2em;
+	}
+
+	.container
+	{
+		width: 218%;
+		font-size: 2em;
+	}
+	
+	.center_container article
+
+	{
+		width: 100%;
+	}
+
+	button
+
+	{
+		width: 550px;
+		border-radius: 55px;
+		padding: 20px;
 	}
 }
 
+/* Responve for IPAD*/
 
+@media (min-width: 768px) and (max-width: 769px)
 
+{
+	.navigation-header
 
+	{
+		width: 106%;
+	}
 
+	.container
+
+	{
+		width: 106%;
+	}
+
+	button
+
+	{
+		width: 550px;
+		border-radius: 55px;
+		padding: 20px;
+	}
+}
 
 
 
